@@ -1,0 +1,2 @@
+{:paths ["."]
+ :deps  {clansi {:mvn/version "1.0.0"}}}

@@ -1,0 +1,8 @@
+#!/bin/sh
+
+## Run using local file
+
+clojure  -m hello-clojure
+
+## Run Clojure CLI tools using gist
+## clojure -Sdeps '{:deps {hello-clojure {:git/url "https://gist.github.com/athos/b68b15b08efedffaf14d8c020b125202" :sha "1c9a05106171f97f9b8e8ac8f58c7bd8dbe021f9"}}}' -m hello-clojure
